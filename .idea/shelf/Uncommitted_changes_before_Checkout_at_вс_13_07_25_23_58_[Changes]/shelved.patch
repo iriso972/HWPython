@@ -1,0 +1,15 @@
+Index: lesson_2_task_2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>def is_year_leap(year):\r\n    return \"True\" if year % 4 ==0 else \"False\"\r\nyear= int(input(\"Введите год: \"))\r\nleap = is_year_leap(year)\r\nprint (f\"год: {year}: {leap}\")\r\n
+===================================================================
+diff --git a/lesson_2_task_2.py b/lesson_2_task_2.py
+--- a/lesson_2_task_2.py	(revision 78e5e6740e04a92fda9f0b867860a77c65559f89)
++++ b/lesson_2_task_2.py	(date 1752433368151)
+@@ -1,5 +1,5 @@
+ def is_year_leap(year):
+-    return "True" if year % 4 ==0 else "False"
++    return True if year % 4 ==0 else False
+ year= int(input("Введите год: "))
+ leap = is_year_leap(year)
+ print (f"год: {year}: {leap}")
