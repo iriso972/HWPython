@@ -1,5 +1,5 @@
 import pytest
-from string_utilis import StringUtils
+from string_utils import StringUtils
 
 string_utils = StringUtils()
 
