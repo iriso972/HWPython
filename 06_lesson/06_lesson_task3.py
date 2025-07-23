@@ -11,7 +11,7 @@ driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install())
 driver.get("https://bonigarcia.dev/selenium-webdriver-java/loading-images.html")
 
 # загрузка картинок, ожидание
-waiter =WebDriverWait(driver, 17)
+waiter = WebDriverWait(driver, 17)
 waiter.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#landscape")))
 
 # получаем картинки
