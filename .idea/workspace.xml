@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a8171c-3493-45f5-98f4-530696082e0f" name="Changes" comment="lesson_05">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HWPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HWPython.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at__13_07_25_23_58__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_вс_13_07_25_23_58_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/04_lesson.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/06K_lesson.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="f5a8171c-3493-45f5-98f4-530696082e0f" name="Changes" comment="lesson_05" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
