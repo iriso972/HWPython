@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a8171c-3493-45f5-98f4-530696082e0f" name="Changes" comment="lesson_05" />
+    <list default="true" id="f5a8171c-3493-45f5-98f4-530696082e0f" name="Changes" comment="lesson_05">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HWPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HWPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at__13_07_25_23_58__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_вс_13_07_25_23_58_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/04_lesson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_lesson/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/06K_lesson.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06K_lesson/.idea/vcs.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +51,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="04_lesson" />
+        <entry key="$PROJECT_DIR$" value="lesson_6K" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,8 +82,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.06_lesson_task1.executor": "Run",
+    "Python.06_lesson_task2.executor": "Run",
+    "Python.06_lesson_task3.executor": "Run",
     "Python.lesson5_task_01.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Oleg/Desktop/ДЗ/HWPython"
