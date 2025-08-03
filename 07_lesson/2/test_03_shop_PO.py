@@ -5,12 +5,14 @@ from ShopPage import ShopPage
 from CartPage import CartPage
 from CheckoutPage import CheckoutPage
 
+
 @pytest.fixture()
 def driver():
     driver = webdriver.Firefox()
     driver.maximize_window()
     yield driver
     driver.quit()
+
 
 def test_purchase(driver):
     # Создание страниц

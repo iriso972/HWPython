@@ -1,4 +1,7 @@
 from selenium.webdriver.common.by import By
+
+
+# Объявляем класс Calculator
 class CalculatorPage:
     def __init__(self, driver):
         self.driver = driver
@@ -11,14 +14,17 @@ class CalculatorPage:
             "=": (By.XPATH, '//span[text()="="]')
         }
 
+    # Выставляем задержку исполнения
     def set_delay(self, seconds):
         element = self.driver.find_element(*self.delay_input)
         element.clear()
         element.send_keys(str(seconds))
 
+    # Кликаем кнопки
     def click_button(self, symbol):
         button = self.driver.find_element(*self.buttons[symbol])
         button.click()
 
+    # Получаем результат
     def get_result(self):
         return self.driver.find_element(*self.result_screen).text
