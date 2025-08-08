@@ -119,7 +119,7 @@ def test_give(get_project_id):
         "Content-Type": "application/json"
     }
 
-    resp = requests.get(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
+    resp = requests.get(base_url + f'/api-v2/projects/{id}', headers=headers)
 
     # assert resp.json()["user_token"] is not None
     assert resp.status_code == 200
@@ -140,7 +140,7 @@ def test_give_n(get_project_id):
         "Content-Type": "application/json"
     }
 
-    resp = requests.post(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
+    resp = requests.post(base_url + f'/api-v2/projects/{id}', headers=headers)
 
     # assert resp.json()["user_token"] is not None
     assert resp.status_code == 404
