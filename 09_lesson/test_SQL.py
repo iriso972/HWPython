@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, inspect, text, Column, Integer, String
+from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # Создаем подключение к базе данных
@@ -25,7 +25,7 @@ def test_add_user():
     session.commit()
 
     saved = session.query(User).filter_by(user_id=18).first()
-    assert saved.user_email =="sashaivanov@mail.ru"
+    assert saved.user_email == "sashaivanov@mail.ru"
 
     session.delete(saved)
     session.commit()
@@ -35,28 +35,26 @@ def test_add_user():
 # Изменение user_email пользователя
 def test_query_user():
     session = Session()
-    users = User(user_id=18, user_email= "sashaivanov@mail.ru", subject_id=1)
+    users = User(user_id=18, user_email="sashaivanov@mail.ru", subject_id=1)
     session.add(users)
     session.commit()
 
+    # Получение пользователя и смена email
     saved = session.query(User).filter_by(user_id=18).first()
-    assert saved.user_email == "sashaivanov@mail.ru"
-
-    users = User(user_id=18, user_email= "mashaivanova@mail.ru", subject_id=1)
-    session.query()
+    saved.user_email = "mashaivanova@mail.ru"
     session.commit()
 
-    saved = session.query(User).filter_by(user_id=18).first()
-    assert saved.user_email == "mashaivanova@mail.ru"
+    # Проверка изменения
+    updated = session.query(User).filter_by(user_id=18).first()
+    assert updated.user_email == "mashaivanova@mail.ru"
 
     # Удаление тестовых данных
-    session.delete(saved)
+    session.delete(updated)
     session.commit()
     session.close()
 
+
 # Удаление пользователя
-
-
 def test_delete_user():
     session = Session()
     users = User(user_id=18, user_email="sashaivanov@mail.ru", subject_id=1)
@@ -66,9 +64,7 @@ def test_delete_user():
     saved = session.query(User).filter_by(user_id=18).first()
     assert saved.user_email == "sashaivanov@mail.ru"
 
-    # Удаление пользователя
+    # Удаление тестовых данных
     session.delete(saved)
     session.commit()
-
-    # Закрытие сессии
     session.close()
