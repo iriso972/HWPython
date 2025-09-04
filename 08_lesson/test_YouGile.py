@@ -7,7 +7,6 @@ user = {
     }
 author = "Bearer rjSQmrVbmWcctvKoyZQexdhRRsEZdJo9V7ZeEU4NG01I4tzem3Zxyiftbbet+SFh"
 
-
 @pytest.fixture
 def get_project_id():
     body = {
@@ -39,6 +38,7 @@ def test_create():
     resp = requests.post(base_url + '/api-v2/projects', json=body, headers=headers)
     print(resp.json())
 
+
     assert resp.status_code == 201
 
 
@@ -58,6 +58,7 @@ def test_create_n():
 
     resp = requests.post(base_url + '/api-v2/projects', json=body, headers=headers)
     print(resp.json())
+
 
     assert resp.status_code == 401
 
@@ -79,6 +80,7 @@ def test_update(get_project_id):
 
     resp = requests.put(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
 
+
     assert resp.status_code == 200
 
 # Изменить проект в title нет значения (негативный тест)
@@ -91,6 +93,8 @@ def test_update_n(get_project_id):
         "users": user
     }
 
+
+    
     id = get_project_id
     headers = {
         "Authorization": author,
@@ -98,6 +102,7 @@ def test_update_n(get_project_id):
     }
 
     resp = requests.put(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
+
 
     assert resp.status_code == 400
 
@@ -123,7 +128,6 @@ def test_give(get_project_id):
     assert resp.status_code == 200
 
     # Получить проект по ID метод POST (негативный тест)
-
 
 def test_give_n(get_project_id):
     body = {
