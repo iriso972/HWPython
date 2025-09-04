@@ -1,0 +1,48 @@
+Проект автоматизации тестирования интернет-магазина SauceDemo
+Проект для автоматизации тестирования с использованием Page Object Pattern и генерацией отчетов Allure.
+Технологии
+Python 3.7+
+
+Selenium WebDriver - для автоматизации браузера
+
+Pytest - фреймворк для тестирования
+
+Allure - система отчетности
+
+Page Object Pattern - паттерн проектирования тестов
+
+Структура проекта
+saucedemo-autotests/
+- requirements.txt          # Зависимости проекта
+- read.me                   # Документация
+- allure-results/           # Результаты тестов для Allure
+- allure-report/            # Сгенерированные HTML отчеты
+- LogPage.py                # Страница авторизации
+- ShopPage.py               # Страница магазина
+- CartPage.py               # Страница корзины
+- CheckoutPage.py           # Страница оформления заказа
+- test-03_shop_PO.py        # Основной тестовый файл
+
+Описание классов
+LogPage - Страница авторизации
+login(username: str, password: str) -> None - авторизация пользователя
+
+ShopPage - Страница магазина
+add_item_to_cart(item_name: str) -> None - добавление товара в корзину
+
+go_to_cart() -> None - переход в корзину
+
+CartPage - Страница корзины
+click_checkout() -> None - оформление заказа
+
+CheckoutPage - Страница оформления заказа
+fill_info(first_name: str, last_name: str, postal_code: str) -> None - заполнение информации
+
+get_total() -> float - получение итоговой суммы
+
+Формирование отчетов
+Запустите тесты и укажите путь к каталогу результатов тестирования:
+pytest --alluredir allure-result
+
+Запустите Allure и преобразуйте результаты теста в отчет:
+allure serve allure-result
