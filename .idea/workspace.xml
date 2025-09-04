@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a8171c-3493-45f5-98f4-530696082e0f" name="Changes" comment="lesson_09">
+    <list default="true" id="f5a8171c-3493-45f5-98f4-530696082e0f" name="Changes" comment="lesson_08">
+      <change afterPath="$PROJECT_DIR$/09_lesson/test_SQL_fixt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_lesson/test_SQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_lesson/test_SQL.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="10_lesson" />
+        <entry key="$PROJECT_DIR$" value="lesson8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +68,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest for 1111.test_create_students.executor": "Run",
+    "Python tests.pytest for 1111.test_delete_user.executor": "Run",
+    "Python tests.pytest for 1111.test_query_user.executor": "Run",
+    "Python tests.pytest for 1111.test_update_user.executor": "Run",
+    "Python tests.pytest for test_03_shop_PO.test_purchase.executor": "Run",
+    "Python tests.pytest for test_SQL.test_add_subject.executor": "Run",
+    "Python tests.pytest for test_SQL.test_add_user.executor": "Run",
+    "Python tests.pytest for test_SQL.test_delete_user.executor": "Run",
+    "Python tests.pytest for test_SQL.test_update_user.executor": "Run",
+    "Python tests.pytest for test_YouGile.test_create.executor": "Run",
+    "Python tests.pytest for test_YouGile.test_give.executor": "Run",
+    "Python tests.pytest for test_YouGile.test_give_n.executor": "Run",
+    "Python tests.pytest for test_YouGile.test_update.executor": "Run",
+    "Python tests.pytest for test_youGile.test_give.executor": "Run",
+    "Python tests.pytest for test_youGile.test_update.executor": "Run",
     "Python.06_lesson_task1.executor": "Run",
     "Python.06_lesson_task2.executor": "Run",
     "Python.06_lesson_task3.executor": "Run",
@@ -73,8 +90,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Oleg/Desktop/ДЗ/HWPython"
+    "git-widget-placeholder": "#4 on lesson9",
+    "last_opened_file_path": "C:/Users/Oleg/Desktop/ДЗ/HWPython",
+    "settings.editor.selected.configurable": "terminal"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -85,8 +103,106 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Oleg\Desktop\ДЗ\HWPython\07_lesson\2" />
+      <recent name="C:\Users\Oleg\Desktop\ДЗ\HWPython\07_lesson\1" />
       <recent name="C:\Users\Oleg\Desktop\ДЗ\HWPython\05_lesson" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for 1111.test_delete_user">
+    <configuration name="pytest for 1111.test_create_students" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HWPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;1111.test_create_students&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for 1111.test_delete_user" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HWPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;1111.test_delete_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for 1111.test_query_user" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HWPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for 1111.test_query_users" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HWPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;1111.test_query_users&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for 1111.test_update_user" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HWPython" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/09_lesson" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;1111.test_update_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for 1111.test_delete_user" />
+        <item itemvalue="Python tests.pytest for 1111.test_query_user" />
+        <item itemvalue="Python tests.pytest for 1111.test_query_users" />
+        <item itemvalue="Python tests.pytest for 1111.test_create_students" />
+        <item itemvalue="Python tests.pytest for 1111.test_update_user" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -143,12 +259,62 @@
       <option name="project" value="LOCAL" />
       <updated>1752440907506</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson_07">
+      <option name="closed" value="true" />
+      <created>1754198614791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754198614791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson_07">
+      <option name="closed" value="true" />
+      <created>1754209573250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754209573250</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson_08">
+      <option name="closed" value="true" />
+      <created>1754503674835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754503674835</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson_08">
+      <option name="closed" value="true" />
+      <created>1754648563798</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754648563798</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson_08">
+      <option name="closed" value="true" />
+      <created>1754649100988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754649100988</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson_08">
+      <option name="closed" value="true" />
+      <created>1755546711969</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755546711969</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Приняты" />
     <MESSAGE value="lesson_05" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_05" />
+    <MESSAGE value="lesson_07" />
+    <MESSAGE value="lesson_08" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_08" />
   </component>
 </project>

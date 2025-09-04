@@ -5,7 +5,7 @@ base_url = 'https://ru.yougile.com'
 user = {
     "e843f31f-426b-4707-9650-d6f29aa1205a": "admin"
     }
-author ="Bearer rjSQmrVbmWcctvKoyZQexdhRRsEZdJo9V7ZeEU4NG01I4tzem3Zxyiftbbet+SFh"
+author = "Bearer rjSQmrVbmWcctvKoyZQexdhRRsEZdJo9V7ZeEU4NG01I4tzem3Zxyiftbbet+SFh"
 
 @pytest.fixture
 def get_project_id():
@@ -23,6 +23,7 @@ def get_project_id():
 
 # Создать проект (позитивный тест)
 
+
 def test_create():
     body = {
         "title": "ГосУслуги",
@@ -37,11 +38,12 @@ def test_create():
     resp = requests.post(base_url + '/api-v2/projects', json=body, headers=headers)
     print(resp.json())
 
-    #assert resp.json()["user_token"] is not None
+
     assert resp.status_code == 201
 
 
 # Создать проект с невалидным токеном (негативный тест)
+
 
 def test_create_n():
     body = {
@@ -57,10 +59,11 @@ def test_create_n():
     resp = requests.post(base_url + '/api-v2/projects', json=body, headers=headers)
     print(resp.json())
 
-    #assert resp.json()["user_token"] is not None
+
     assert resp.status_code == 401
 
 # Изменить проект
+
 
 def test_update(get_project_id):
     body = {
@@ -78,10 +81,10 @@ def test_update(get_project_id):
     resp = requests.put(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
 
 
-    #assert resp.json()["user_token"] is not None
     assert resp.status_code == 200
 
 # Изменить проект в title нет значения (негативный тест)
+
 
 def test_update_n(get_project_id):
     body = {
@@ -91,6 +94,7 @@ def test_update_n(get_project_id):
     }
 
 
+    
     id = get_project_id
     headers = {
         "Authorization": author,
@@ -100,10 +104,10 @@ def test_update_n(get_project_id):
     resp = requests.put(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
 
 
-    #assert resp.json()["user_token"] is not None
     assert resp.status_code == 400
 
 # Получить проект по ID
+
 
 def test_give(get_project_id):
     body = {
@@ -121,7 +125,6 @@ def test_give(get_project_id):
 
     resp = requests.get(base_url + f'/api-v2/projects/{id}', headers=headers)
 
-    # assert resp.json()["user_token"] is not None
     assert resp.status_code == 200
 
     # Получить проект по ID метод POST (негативный тест)
@@ -142,5 +145,4 @@ def test_give_n(get_project_id):
 
     resp = requests.post(base_url + f'/api-v2/projects/{id}', json=body, headers=headers)
 
-    # assert resp.json()["user_token"] is not None
     assert resp.status_code == 404
